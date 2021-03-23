@@ -4,11 +4,10 @@ import  org.joda.time.LocalTime;
 
 //test git
 public class HelloWorld {
-  public static void main(String[] args) {
-    LocalTime currentTime = new LocalTime();
-    System.out.println("The current local time is: " + currentTime);
+    public static void main(String[] args) {
+ 
+      System.out.println("Local time is: " + new LocalTime());
 
-    Greeter greeter = new Greeter();
-    System.out.println(greeter.sayHello());
-  }
+      System.out.println(new Greeter().sayHello());
+    }
 }
